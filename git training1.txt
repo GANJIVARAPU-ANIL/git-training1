@@ -3,12 +3,13 @@ class factorial
 	public static void main(string args[])
 	{
 		int n,i,f;
-		system.out.println("enter a number");
+		System.out.println("enter a number");
 		Scanner s=new Scanner();
 		n=nextInt();
 		for(i=1;i<n;i++)
 		{
-		f=f*i;
+			f=f*i;
 		}
+		System.out.println("Factorial : "+f);
 	}
 }
